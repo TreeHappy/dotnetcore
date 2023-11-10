@@ -18,6 +18,7 @@
     "visualstudioexptteam.vscodeintellicode",
     "yzhang.markdown-all-in-one"
   ],
+  "features": { "ghcr.io/devcontainers/features/sshd:1": { "version": "latest" } },
   "dockerFile": "Dockerfile",
   "forwardPorts": [5000, 5001, 7071],
   "settings": {
