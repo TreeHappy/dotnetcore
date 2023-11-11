@@ -39,3 +39,6 @@ apt-get update
 apt-get gcc
 apt-get make
 apt-get install neovim
+
+curl -sS https://starship.rs/install.sh | sh
+
