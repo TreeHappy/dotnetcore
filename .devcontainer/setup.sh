@@ -32,3 +32,10 @@ cp -R /root/.oh-my-zsh /home/$USERNAME
 cp /root/.zshrc /home/$USERNAME
 sed -i -e "s/\/root\/.oh-my-zsh/\/home\/$USERNAME\/.oh-my-zsh/g" /home/$USERNAME/.zshrc
 chown -R $USER_UID:$USER_GID /home/$USERNAME/.oh-my-zsh /home/$USERNAME/.zshrc
+
+apt-get install software-properties-common -y
+add-apt-repository ppa:neovim-ppa/stable
+apt-get update
+apt-get gcc
+apt-get make
+apt-get install neovim
